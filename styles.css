@@ -105,7 +105,7 @@ a {
   color: var(--branding-color);
 }
 nav {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 i {
   font-size: 45px;
@@ -128,7 +128,8 @@ nav a {
   font-family: var(--default-font-family);
   transition: all 150ms ease-in-out;
 }
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: black;
 }
 @media (max-width: 1260px) {
@@ -151,5 +152,8 @@ nav a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  nav ul {
+    margin-right: 10px;
   }
 }
