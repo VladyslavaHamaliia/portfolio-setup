@@ -31,7 +31,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   height: 100vh;
 }
 .hero p {
@@ -76,7 +76,7 @@ p {
   border-radius: 10px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 0 30px 30px 30px;
@@ -191,5 +191,12 @@ footer .email-link:hover {
   }
   nav ul {
     margin-right: 10px;
+  }
+  #about-photo {
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 20px;
   }
 }
